@@ -36,10 +36,8 @@ open app/app.xcodeproj
 
 Contributions are welcome! Feel free to open issues and pull requests.
 
-## License
+## Demo
+Check out the video below to see the app's functionality in action: 
 
-This project is under the MIT license. See the LICENSE file for more details.
+https://github.com/user-attachments/assets/9f9270cb-256e-4998-bd07-e882d944f0db
 
-## Contact
-
-For questions or suggestions, contact us at: contact@chef-delivery.com
