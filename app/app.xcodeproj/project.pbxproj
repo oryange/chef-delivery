@@ -19,6 +19,8 @@
 		523BE3082E108D9B0076326C /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BE3072E108D9B0076326C /* OrderType.swift */; };
 		523BE30A2E108DF00076326C /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BE3092E108DF00076326C /* DataSourceMock.swift */; };
 		523BE30C2E1091EA0076326C /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BE30B2E1091EA0076326C /* OrderTypeView.swift */; };
+		523BE30F2E10A3DB0076326C /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BE30E2E10A3DB0076326C /* CarouselItemView.swift */; };
+		523BE3112E10A5310076326C /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BE3102E10A5310076326C /* CarouselTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		523BE3072E108D9B0076326C /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		523BE3092E108DF00076326C /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		523BE30B2E1091EA0076326C /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		523BE30E2E10A3DB0076326C /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		523BE3102E10A5310076326C /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,11 @@
 		523BE2D42E10808B0076326C /* app */ = {
 			isa = PBXGroup;
 			children = (
-				523BE3062E1088490076326C /* Model */,
-				523BE3032E10853E0076326C /* GridView */,
 				523BE3002E1081D30076326C /* App */,
+				523BE3062E1088490076326C /* Model */,
 				523BE2FF2E1081C40076326C /* NavigationBar */,
+				523BE3032E10853E0076326C /* GridView */,
+				523BE30D2E10A3B70076326C /* CarouselView */,
 				523BE2DB2E10808D0076326C /* Preview Content */,
 			);
 			path = app;
@@ -172,6 +177,15 @@
 				523BE3092E108DF00076326C /* DataSourceMock.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		523BE30D2E10A3B70076326C /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				523BE30E2E10A3DB0076326C /* CarouselItemView.swift */,
+				523BE3102E10A5310076326C /* CarouselTabView.swift */,
+			);
+			path = CarouselView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,12 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				523BE3082E108D9B0076326C /* OrderType.swift in Sources */,
+				523BE30F2E10A3DB0076326C /* CarouselItemView.swift in Sources */,
 				523BE2D82E10808B0076326C /* ContentView.swift in Sources */,
 				523BE30A2E108DF00076326C /* DataSourceMock.swift in Sources */,
 				523BE30C2E1091EA0076326C /* OrderTypeView.swift in Sources */,
 				523BE3052E1085600076326C /* OrderTypeGridView.swift in Sources */,
 				523BE2D62E10808B0076326C /* appApp.swift in Sources */,
 				523BE3022E10821E0076326C /* NavigationBar.swift in Sources */,
+				523BE3112E10A5310076326C /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
